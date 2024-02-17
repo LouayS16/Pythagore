@@ -1,0 +1,91 @@
+.Navbar {
+    background-color: #fff; /* White background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+  }
+  
+  /*.nav-logo img {
+    width: 90px; /* Set the desired width of the image */
+   /* height: auto; /* Maintain the aspect ratio by setting height to auto */
+    /*margin: right 5px; /* Add spacing between image and text */
+  
+  .nav_menu {
+    list-style: none;
+    display: flex;
+    margin: 100;
+    padding: 100;
+    justify-content:center;
+    border: 2px solid rgb(246, 244, 244); /* Border color for the button-like appearance */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+
+  .nav_menu img{
+    width: 20px;
+    height: auto;
+    align-items: center;
+    margin-top: 7px;
+
+  }
+  
+  .nav_menu li {
+    margin-right: 20px;
+    position: relative;
+  }
+
+  
+  .nav_menu a {
+    text-decoration: none;
+    color: #333; /* Dark grey text color */
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+  
+  }
+
+  .nav_menu a:hover {
+    background-color: #333; /* Dark grey background color on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  .nav_menu .home {
+    width: 25px; /* Adjust the width as needed */
+  }
+  
+  .has-children:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* White background color for dropdown */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    z-index: 1;
+  }
+  
+  .dropdown li {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .dropdown a {
+    padding: 10px;
+    display: block;
+    color: #333; /* Dark grey text color for dropdown items */
+    text-decoration: none;
+  }
+  
+  .dropdown li:hover {
+    background-color: #eee; /* Light grey background color on hover */
+  }
+  
+  .home{
+    cursor: pointer;
+  }

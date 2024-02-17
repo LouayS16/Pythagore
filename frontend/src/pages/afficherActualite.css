@@ -1,0 +1,31 @@
+/* afficherActualite.css */
+
+.actualites-container {
+    margin: 20px;
+  }
+  
+  .actualites-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .actualites-table th,
+  .actualites-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .actualites-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .actualites-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .actualites-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  

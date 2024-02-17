@@ -1,0 +1,104 @@
+.footer {
+    background-color: rgba(51, 51, 51, 0.781); /* Set background color to match the color of the waves */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Align text to center */
+    position: relative; /* Position footer */
+  }
+  
+  .social-icon__item
+   {
+    list-style: none; /* Remove default list style */
+    display: inline-block;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem; /* Set icon size */
+    color: #fff; /* Set icon color */
+    margin: 0 10px; /* Add margin */
+    display: inline-block;
+    transition: transform 0.5s; /* Add transition effect */
+  }
+  
+  .social-icon__link:hover {
+    transform: translateY(-10px); /* Apply transformation on hover */
+  }
+  
+  .menu__link {
+    font-size: 1.2rem; /* Set link font size */
+    color: #fff; /* Set link color */
+    margin: 0 10px; /* Add margin */
+    display: inline-block; /* Display links inline */
+    transition: opacity 0.5s; /* Add transition effect */
+    text-decoration: none; /* Remove underline */
+    opacity: 0.75; /* Set initial opacity */
+    font-weight: 300; /* Set font weight */
+  }
+  
+  .menu__link:hover {
+    opacity: 1; /* Change opacity on hover */
+  }
+  
+  .footer p {
+    color: #fff; /* Set paragraph color */
+    margin: 15px 0 10px 0; /* Add margin */
+    font-size: 1rem; /* Set paragraph font size */
+    font-weight: 300; /* Set font weight */
+  }
+  
+  .wave {
+    position: absolute; /* Position waves */
+    top: -100px; /* Position waves above footer */
+    left: 0; /* Align waves to the left */
+    width: 100%; /* Set width */
+    height: 100px; /* Set height */
+    background: url('../Assets/wave.png'); /* Set wave background */
+    background-size: 1000px 100px; /* Set background size */
+  }
+  
+  .wave#wave1 {
+    z-index: 1000; /* Set stacking order */
+    opacity: 1; /* Set opacity */
+    bottom: 0; /* Position wave at the bottom */
+    animation: animateWaves 4s linear infinite; /* Apply animation */
+  }
+  
+  .wave#wave2 {
+    z-index: 999; /* Set stacking order */
+    opacity: 0.5; /* Set opacity */
+    bottom: 10px; /* Position wave */
+    animation: animate 4s linear infinite; /* Apply animation */
+  }
+  
+  .wave#wave3 {
+    z-index: 1000; /* Set stacking order */
+    opacity: 0.2; /* Set opacity */
+    bottom: 15px; /* Position wave */
+    animation: animateWaves 3s linear infinite; /* Apply animation */
+  }
+  
+  .wave#wave4 {
+    z-index: 999; /* Set stacking order */
+    opacity: 0.7; /* Set opacity */
+    bottom: 20px; /* Position wave */
+    animation: animate 3s linear infinite; /* Apply animation */
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  

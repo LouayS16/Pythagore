@@ -1,0 +1,38 @@
+/* top.css */
+
+.h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fafafa; /* Set your desired background color */
+  }
+  
+  .h div {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Set flex-direction to column */
+  }
+  
+  .h img {
+    width: 50px; /* Adjust the width of the logo image */
+    height: auto;
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+  
+  .h p,
+  .h p1,
+  .h p2 {
+    margin: 0;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  /* Additional styling for individual paragraphs if needed */
+  .h p1 {
+    font-weight: bold;
+  }
+  .h p ,
+  .h p2 {
+    font-style: italic;
+  }
+  

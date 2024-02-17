@@ -1,0 +1,67 @@
+/* sidebar.css */
+
+.sidebar {
+    background-color: #8ca0b3;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.bar_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bar_menu a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.bar_menu a:hover {
+    background-color: #556474;
+}
+
+.has-children {
+    position: relative;
+}
+
+.has-children:hover .dropdown {
+    max-height: 500px; /* Adjust the maximum height as needed */
+    transition: max-height 0.3s ease-in-out;
+}
+
+.dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown li {
+    width: 150px; /* Adjust the width as needed */
+}
+
+.dropdown a {
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown li:hover {
+    background-color: #eee;
+}

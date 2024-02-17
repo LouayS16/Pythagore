@@ -1,0 +1,53 @@
+/* listeEleve.css */
+
+/* Center the table on the page */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  
+  
+  /* Style for the table */
+  table {
+    width: 65%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 300px;
+   
+  }
+  
+  /* Style for table header */
+  thead {
+    background-color: #4658e6;
+    color: white;
+  }
+  
+  /* Style for table cells */
+  td, th {
+    border: 1px solid #ddd;
+    padding: 5px ;
+    text-align: left;
+  }
+  
+  /* Style for odd rows */
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for even rows */
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add margin to separate from other elements */
+    font-weight: bold; /* Set font weight */
+  text-decoration: underline; /* Add underline */
+  }
+  
+  

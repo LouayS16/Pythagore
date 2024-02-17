@@ -1,0 +1,87 @@
+/* afficherEmploiEns.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+/* afficherEmploiEns.css */
+
+.empoi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.empoi-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.empoi-table tr:last-child td {
+    border-bottom: none;
+}
+
+.empoi-table a {
+    color: blue;
+    text-decoration: none;
+}
+
+.empoi-table a:hover {
+    text-decoration: underline;
+}
